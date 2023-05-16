@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Hero from '../components/sections/hero.svelte';
+</script>
+
+<Hero
+	heading={'Unleash The Power Of Ecommerce'}
+	subheading={'Use SvelteKit to empower your store with lightning fast speed \
+        and feature-rich customer experience'}
+/>
